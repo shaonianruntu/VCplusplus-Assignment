@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyDraw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyDraw.res" /d "_DEBUG" /d "_AFXDLL" "F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\MyDraw.rc"" 
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyDraw.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\Circle.cpp"
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\Line.cpp"
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\MainFrm.cpp"
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\MyDraw.cpp"
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\MyDrawDoc.cpp"
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\MyDrawView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP55.tmp" 
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyDraw.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\快盘\应用程序Windows界面设计2014\程序例子\MyDraw08\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP56.tmp" 
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP57.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyDraw.pdb" /debug /machine:I386 /out:"Debug/MyDraw.exe" /pdbtype:sept 
+".\Debug\Circle.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyDraw.obj"
+".\Debug\MyDrawDoc.obj"
+".\Debug\MyDrawView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyDraw.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP57.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Circle.cpp
+Line.cpp
+MainFrm.cpp
+MyDraw.cpp
+MyDrawDoc.cpp
+MyDrawView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyDraw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
