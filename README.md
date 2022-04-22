@@ -1,2 +1,3 @@
-# VCplusplus-lab
-VC++面向对象编程实验
+# VC++ OOP course assignment of HDU
+
+Compile with VC++ 6.0
