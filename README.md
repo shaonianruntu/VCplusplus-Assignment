@@ -1,3 +1,4 @@
 # VC++ OOP course assignment of HDU
 
-Compile with VC++ 6.0
+Use VC++ 6.0 compiler.
+
